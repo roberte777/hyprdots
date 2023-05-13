@@ -98,6 +98,7 @@ NOTE : You can also create your own file (for ex. custom_app.lst) with all your 
 - ~~noto-fonts-emoji -- for waybar weather~~
 
 #### theming
+- Can find the gruvbox icons here, put them in .icons and change with GtkSettings: https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme
 - nwg-look -- theming GTK apps
 - kvantum -- theming QT apps
 - qt5ct -- theming QT5 apps

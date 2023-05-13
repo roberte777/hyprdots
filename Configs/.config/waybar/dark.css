@@ -8,12 +8,12 @@
 }
 
 window#waybar {
-    background: rgba(17, 17, 27, .10);
+    background: rgba(146, 131, 116, .10);
 }
 
 tooltip {
-    background: #1e1e2e;
-    color: #cdd6f4;
+    background: #1d2021;
+    color: white;
     border-radius: 10px;
     border-width: 1px;
     border-style: solid;
@@ -29,14 +29,14 @@ tooltip {
     margin-bottom: 3px;
     padding-left: 2px;
     padding-right: 2px;
-    color: #cdd6f4;
+    color: white;
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
 #workspaces button.active {
-    background: #a6adc8;
-    color: #313244;
+    background: #458588;
+    color: white;
     margin-left: 2px;
     padding-left: 10px;
     padding-right: 10px;
@@ -46,7 +46,7 @@ tooltip {
 }
 
 #workspaces button:hover {
-    background: #f5c2e7;
+    background: #b8bb26;
     color: #313244;
     padding-left: 2px;
     padding-right: 2px;
@@ -67,8 +67,8 @@ tooltip {
 #custom-wallchange,
 #custom-mode,
 #tray {
-    color: #cdd6f4;
-    background: #11111b;
+    color: white; /* This changes the color of all the words that are not in the middle */
+    background: #282828;
     opacity: 1;
     padding: 0px;
     margin: 3px 0px 3px 0px;
@@ -174,3 +174,4 @@ tooltip {
     padding-right: 12px;
     margin-right: 25px;
 }
+
